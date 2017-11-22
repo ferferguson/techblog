@@ -329,7 +329,7 @@ textarea {
 }
 
 .contenedor-menu {
-	width: 1170px;
+	max-width: 1170px;
 	position: relative;
 	margin: auto;
 	display: flex;
@@ -567,7 +567,8 @@ textarea {
 
 .menu-background {
 	background-color: black;
-	background-size: cover;
+	/*background-size: cover;*/
+	width: auto;
 }
 
 .paginador .button {
@@ -744,9 +745,16 @@ textarea {
 	margin-bottom: 10px;
 }
 
+.subTitlePrincipal {
+	max-width: 100%;
+	padding: 0px 15px 0px 15px;
+}
+
 .subjectPrincipal {
-	margin-top: 5px;
+	max-width: 100%;
+	margin-top: 15px;
 	margin-bottom: 8px;
+	padding: 0px 15px 0px 15px;
 }
 
 .title {
@@ -755,8 +763,10 @@ textarea {
 }
 
 .titlePrincipal {
+	max-width: 100%;
 	margin-top: 5px;
 	margin-bottom: 8px;
+	padding: 0px 15px 0px 15px;
 }
 
 .titulo {
@@ -1188,26 +1198,24 @@ textarea {
 		margin-left: 0px;
 	}
 
-	.subTitlePrincipal {
+	/*.subTitlePrincipal {
 		width: 400px;
 		margin-top: 5px;
 		margin-bottom: 8px;
 		padding: 0px 10px 0px 10px;
-	}
+	}*/
 
-	.subjectPrincipal {
+/*	.subjectPrincipal {
 		width: 400px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
-	}
+	}*/
 
-	.titlePrincipal {
+	/*.titlePrincipal {
 		width: 400px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
-	}
+	}*/
 }
 
 @media screen and (max-width: 500px) {
@@ -1395,26 +1403,24 @@ textarea {
 		margin-left: 0px;
 	}
 
-	.subTitlePrincipal {
+	/*.subTitlePrincipal {
 		width: 400px;
 		margin-top: 5px;
 		margin-bottom: 8px;
 		padding: 0px 10px 0px 10px;
-	}
+	}*/
 
-	.subjectPrincipal {
+	/*.subjectPrincipal {
 		width: 400px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
 	}
-
-	.titlePrincipal {
+*/
+	/*.titlePrincipal {
 		width: 400px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
-	}
+	}*/
 }
 
 @media screen and (max-width: 400px) {
@@ -1609,26 +1615,24 @@ textarea {
 		margin-left: 0px;
 	}
 
-	.subTitlePrincipal {
+	/*.subTitlePrincipal {
 		width: 300px;
 		margin-top: 5px;
 		margin-bottom: 8px;
 		padding: 0px 10px 0px 10px;
-	}
+	}*/
 
-	.subjectPrincipal {
+	/*.subjectPrincipal {
 		width: 300px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
-	}
+	}*/
 
-	.titlePrincipal {
+	/*.titlePrincipal {
 		width: 300px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
-	}
+	}*/
 }
 
 
@@ -1857,26 +1861,24 @@ textarea {
 		margin-left: 0px;
 	}
 
-	.subjectPrincipal {
+	/*.subjectPrincipal {
 		width: 300px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
-	}
+	}*/
 
-	.subTitlePrincipal {
+	/*.subTitlePrincipal {
 		width: 300px;
 		margin-top: 5px;
 		margin-bottom: 8px;
 		padding: 0px 10px 0px 10px;
-	}
+	}*/
 
-	.titlePrincipal {
+	/*.titlePrincipal {
 		width: 300px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
-	}
+	}*/
 }
 
 @media screen and (max-width: 320px) {
@@ -2115,24 +2117,22 @@ textarea {
 		margin-left: 0px;
 	}
 
-	.subjectPrincipal {
+	/*.subjectPrincipal {
 		width: 300px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
-	}
+	}*/
 
-	.subTitlePrincipal {
+	/*.subTitlePrincipal {
 		width: 300px;
 		margin-top: 5px;
 		margin-bottom: 8px;
 		padding: 0px 10px 0px 10px;
-	}
+	}*/
 
-	.titlePrincipal {
+	/*.titlePrincipal {
 		width: 300px;
 		margin-top: 5px;
 		margin-bottom: 8px;
-		padding: 0px 10px 0px 10px;
-	}
+	}*/
 }

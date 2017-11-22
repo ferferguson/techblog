@@ -1923,7 +1923,7 @@ textarea {
 	}
 
 	.bookmarkPrincipal {
-		width: 300px;
+		width: 260px;
 	}
 
 	.callToAction {
@@ -2076,7 +2076,7 @@ textarea {
 		font-size: 15px;
 	}
 
-	.picContainerFirstRow {
+	/*.picContainerFirstRow {
 		width: 260px;
 		height: 185px;
 	    text-align: center;
@@ -2101,11 +2101,11 @@ textarea {
 	    display: flex;
 	    align-items: center;
 	    justify-content: center;
-	}
+	}*/
 
-	.picture {
+	/*.picture {
 		width: 200px;
-	}
+	}*/
 
 	.picturePrincipal {
 		width: 300px;
